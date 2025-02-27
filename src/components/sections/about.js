@@ -162,7 +162,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm <strong>Mohamed Sriha</strong>, an AI Engineer with a Master's degree from Carnegie Mellon University. At <a href="https://www.deepset.ai/">deepset</a>, I develop cutting-edge multi-agent systems that not only negotiate and reason but also excel at analyzing large and complex datasets. My passion is in designing AI agents, whether it's orchestrating financial negotiation agents that effectively manage multi-million dollar loan restructurings or creating research agents that extract actionable insights from vast amounts of unstructured and structured data.
+              Hello! I'm <strong>Mohamed Sriha</strong>, an AI Engineer with a Master's degree from Carnegie Mellon University. At <a href="https://www.deepset.ai/">deepset</a>, I develop multi-agent systems that not only negotiate and reason but also excel at analyzing large and complex datasets. My passion is in designing AI agents, whether it's orchestrating financial negotiation agents that effectively manage multi-million dollar loan restructurings or creating research agents that extract actionable insights from vast amounts of unstructured and structured data.
             </p>
 
             <p>
