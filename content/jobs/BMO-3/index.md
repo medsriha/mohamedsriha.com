@@ -1,5 +1,5 @@
 ---
-date: '2021-12-21'
+date: '2021-12-22'
 title: 'Lead Machine Learning Engineer'
 company: 'BMO (AML)'
 location: 'Chicago, IL'
