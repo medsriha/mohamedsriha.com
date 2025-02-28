@@ -51,6 +51,17 @@ const Head = ({ title, description }) => {
       <meta name="twitter:description" content={seo.description} />
 
       <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+      
+      {/* Google Analytics */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR470D22Z3"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZR470D22Z3');
+        `}
+      </script>
     </Helmet>
   );
 };
