@@ -3,9 +3,12 @@
 node_modules
 yarn-error.log
 package-lock.json
+.husky
 
 # Build directory
 /public
 .DS_Store
 
 .vscode/
+
+
