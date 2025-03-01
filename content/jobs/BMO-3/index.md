@@ -5,7 +5,7 @@ company: 'BMO (AML)'
 location: 'Chicago, IL'
 range: 'April 2021 - March 2024'
 url: 'https://www.bmo.com/en-us/main/personal/'
-technologies: ['Python', 'NLP', 'RAG', 'AWS', 'Docker', 'API', 'Model Explainability', 'MLOps']
+technologies: ['Python', 'NLP', 'RAG', 'Leadership', 'Javascript', 'API Development', 'Model Explainability']
 ---
 
 - Led a team of data scientists in developing an NLP-driven automation tool for narrative generation in government filings, reducing investigation time by 65% and saving over $1M annually. The achievement was recognized by the Chief Risk Officer.

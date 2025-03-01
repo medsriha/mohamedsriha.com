@@ -6,7 +6,7 @@ location: 'Chicago, IL'
 range: 'May 2019 - March 2021'
 url: 'https://www.bmo.com/en-us/main/personal/'
 tag: 'Klaviyo'
-technologies: ['Python', 'Javascript', 'PyTorch', 'AWS', 'Hadoop', 'NLP', 'Anomaly detection']
+technologies: ['Python', 'AML', 'Machine learning', 'NLP', 'Anomaly detection', 'Model validation']
 ---
 
 - Built an anomaly detection model using Isolation Forest to detect suspicious activities within Hong Kong and Singapore trade finance instruments; defined candidate variables, applied feature engineering, and established performance metrics; reduced false positives by 35%.

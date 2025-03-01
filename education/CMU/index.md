@@ -10,4 +10,4 @@ url: 'https://www.cmu.edu'
 - Specialized in software engineering and machine learning
 - Served as the graduate student commencement speaker
 - Represented students as a Graduate Student Assembly representative
-- GPA: 3.9
+- GPA: 3.8

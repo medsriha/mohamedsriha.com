@@ -58,7 +58,7 @@ const StyledTechList = styled.div`
     background-color: rgba(100, 255, 218, 0.1);
     color: var(--green);
     border-radius: 14px;
-    padding: 6px 12px;
+    padding: 8px 5px;
     font-size: var(--fz-xs);
     font-family: var(--font-mono);
     transition: var(--transition);
@@ -149,9 +149,7 @@ const About = () => {
   }, []);
 
   const skills = [
-    'SE fundamentals', 'Agentic systems', 'Retrieval Augmented Generation (RAG)',
-    'Predictive Modeling', 'NLP', 'Python',
-    'Machine Learning', 'Data Science'
+    'Agentic systems', 'NLP', 'Python', 'Machine Learning', 'Leadership'
   ];
 
   return (
@@ -162,18 +160,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm <strong>Mohamed Sriha</strong>, an AI Engineer with a Master's degree from Carnegie Mellon University. At <a href="https://www.deepset.ai/">deepset</a>, I develop multi-agent systems that not only negotiate and reason but also excel at analyzing large and complex datasets. My passion is in designing AI agents, whether it's orchestrating financial negotiation agents that effectively manage multi-million dollar loan restructurings or creating research agents that extract actionable insights from vast amounts of unstructured and structured data.
+              As an experienced AI Engineer, I specialize in helping customers at <a href="https://www.deepset.ai/">deepset</a> develop multi-agent systems that effectively negotiate, reason, and analyze large and complex datasets. My passion lies in designing and constructing AI systems, whether it's orchestrating financial negotiation agents for multi-million dollar loan restructurings or creating research agents that extract actionable insights from vast pools of structured and unstructured data.
             </p>
 
             <p>
-              I take pride in consistently delivering innovative solutions that transform business operations and create significant competitive advantages.
+              I take great pride in consistently delivering innovative solutions that transform business operations and provide substantial competitive advantages. During my time at <a href="https://www.bmo.com/en-us/main/personal/">BMO</a>, I led a team that implemented an enterprise-scale NLP solution for anti-money laundering compliance. This initiative resulted in a 65% reduction in the time taken for money laundering investigations and generated over $1 million in annual cost savings. By merging advanced machine learning techniques with deep industry expertise, I enhanced the accuracy of risk assessments and optimized compliance workflows across various business units.
             </p>
 
-            <p>
-              While at <a href="https://www.bmo.com/en-us/main/personal/">BMO</a>, I led an innovative team that launched an enterprise-scale NLP solution for financial compliance, resulting in a 65% reduction in money laundering investigation time and generating over $1 million in annual cost savings. By blending advanced machine learning techniques with deep industry expertise, I enhanced risk assessment accuracy and optimized compliance workflows across multiple business units, driving excellence at every turn.
-            </p>
-
-            <p>Core technical competencies:</p>
+            <p>My core technical competencies include:</p>
           </div>
 
           <StyledTechList>
