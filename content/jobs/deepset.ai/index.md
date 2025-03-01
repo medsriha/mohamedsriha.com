@@ -6,12 +6,11 @@ location: 'Chicago, IL'
 range: 'March 2024 - Present'
 url: 'https://deepset.ai/'
 tag: 'Klaviyo'
-technologies: ['Agents', 'LangChain', 'Haystack', 'RAG', 'LLMs', 'Fine-tuning',
-               'devOps', 'Python', 'Snowflake', 'SQL', 'Javascript',
+technologies: ['Haystack', 'RAG', 'devOps', 'Python', 'Snowflake', 'SQL', 'Javascript',
                'Product management', 'Information retrieval']
 ---
 
-- Integrated Snowflake into deepset-cloud within weeks of joining, enabling agents-based pipelines to seamlessly access large-scale enterprise data through the platform without the need for data migration.
+- Integrated Snowflake into deepset AI Platform within weeks of joining, enabling agents-based pipelines to seamlessly access large-scale enterprise data through the platform without the need for data migration.
 - Developed a RAG-based chatbot system for a market research customer, processing over 15 billion structured and unstructured data points to deliver insights, reducing reliance on external business intelligence and copilot tools.
 - Designed and implemented a RAG-based agent system for a financial customer to negotiate missed car loan payments, leveraging multiple agents to automate negotiation workflows and improve customer engagement.
 - Contributed to deepset's open-source framework Haystack by improving core functionalities and enhancing developer tools.

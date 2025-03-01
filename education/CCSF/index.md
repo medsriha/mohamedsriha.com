@@ -7,5 +7,5 @@ range: 'September 2016 - May 2017'
 url: 'https://www.ccsf.edu'  
 ---
 
-- Completed various computer science courses and ESL  
+- Completed various computer science and ESL courses
 - GPA: 4.0
