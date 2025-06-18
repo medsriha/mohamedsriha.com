@@ -6,6 +6,5 @@ location: 'Chicago, IL'
 range: 'March 2024 - Present'
 url: 'https://deepset.ai/'
 tag: 'Klaviyo'
-technologies: ['Haystack', 'RAG', 'devOps', 'Python', 'Snowflake', 'SQL', 'Javascript',
-               'Product management', 'Information retrieval']
+technologies: ['Haystack', 'RAG', 'Agentic workflows', 'devOps', 'Information retrieval']
 ---
