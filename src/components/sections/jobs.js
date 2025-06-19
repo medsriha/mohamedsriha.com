@@ -319,8 +319,6 @@ const Jobs = () => {
 
                     <p className="range">{range}</p>
 
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
-                    
                     {frontmatter.technologies && (
                       <StyledTechList>
                         {frontmatter.technologies.map((tech, i) => (
