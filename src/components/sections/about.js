@@ -160,14 +160,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              As an experienced AI Engineer, I specialize in helping customers at <a href="https://www.deepset.ai/">deepset</a> develop multi-agent systems that effectively negotiate, reason, and analyze large and complex datasets. My passion lies in designing and constructing AI systems, whether it's orchestrating financial negotiation agents for multi-million dollar loan restructurings or creating research agents that extract actionable insights from vast pools of structured and unstructured data.
+              I work as an AI Engineer at <a href="https://www.deepset.ai/">deepset</a>, helping customers build systems that can understand and work with complex data. There's something fascinating about creating AI agents that can collaborate and reason through problems together - whether that's handling financial negotiations or digging through mountains of research data to find what matters.
             </p>
 
             <p>
-              I take great pride in consistently delivering innovative solutions that transform business operations and provide substantial competitive advantages. During my time at <a href="https://www.bmo.com/en-us/main/personal/">BMO</a>, I led a team that implemented an enterprise-scale NLP solution for anti-money laundering compliance. This initiative resulted in a 65% reduction in the time taken for money laundering investigations and generated over $1 million in annual cost savings. By merging advanced machine learning techniques with deep industry expertise, I enhanced the accuracy of risk assessments and optimized compliance workflows across various business units.
+              I really enjoy the puzzle of taking something technically complex and making it useful in the real world. During my time at <a href="https://www.bmo.com/en-us/main/personal/">BMO</a>, I worked with a great team to build NLP tools that helped with compliance investigations. Seeing how the right approach could cut through the noise and let people focus on the important stuff was pretty satisfying.
             </p>
 
-            <p>My core technical competencies include:</p>
+            <p>These days, I spend most of my time working with:</p>
           </div>
 
           <StyledTechList>
