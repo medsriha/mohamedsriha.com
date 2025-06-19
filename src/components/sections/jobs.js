@@ -24,6 +24,37 @@ const StyledJobsSection = styled.section`
   }
 `;
 
+const StyledResumeLink = styled.div`
+  margin-bottom: 40px;
+  text-align: center;
+
+  @media (max-width: 600px) {
+    margin-bottom: 30px;
+  }
+
+  a {
+    ${({ theme }) => theme.mixins.button};
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
+    padding: 12px 24px;
+    transition: var(--transition);
+    
+    &:hover,
+    &:focus {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px -15px var(--green-tint);
+    }
+
+    &:before {
+      content: '📄';
+      font-size: var(--fz-md);
+    }
+  }
+`;
+
 const StyledTabList = styled.div`
   position: relative;
   z-index: 3;
@@ -268,6 +299,12 @@ const Jobs = () => {
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
       <h2 className="numbered-heading">Where I Worked</h2>
+
+      <StyledResumeLink>
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          View Full Resume
+        </a>
+      </StyledResumeLink>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
