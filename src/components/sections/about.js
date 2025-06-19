@@ -148,10 +148,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'Agentic systems', 'NLP', 'Python', 'Machine Learning', 'Leadership'
-  ];
-
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -160,19 +156,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              As an experienced AI Engineer, I specialize in helping customers at <a href="https://www.deepset.ai/">deepset</a> develop multi-agent systems that effectively negotiate, reason, and analyze large and complex datasets. My passion lies in designing and constructing AI systems, whether it's orchestrating financial negotiation agents for multi-million dollar loan restructurings or creating research agents that extract actionable insights from vast pools of structured and unstructured data.
+              I'm a Senior AI Engineer at <a href="https://www.deepset.ai/">deepset</a>, where I help customers build production-ready AI systems using Haystack, our open-source framework. I specialize in creating agentic workflows and RAG pipelines that can handle complex, real-world challenges - from processing financial documents to building intelligent search systems.
             </p>
 
             <p>
-              I take great pride in consistently delivering innovative solutions that transform business operations and provide substantial competitive advantages. During my time at <a href="https://www.bmo.com/en-us/main/personal/">BMO</a>, I led a team that implemented an enterprise-scale NLP solution for anti-money laundering compliance. This initiative resulted in a 65% reduction in the time taken for money laundering investigations and generated over $1 million in annual cost savings. By merging advanced machine learning techniques with deep industry expertise, I enhanced the accuracy of risk assessments and optimized compliance workflows across various business units.
+              What drives me is taking cutting-edge AI research and making it work reliably in production. Whether it's designing multi-agent systems that can reason and collaborate, building retrieval systems that understand context and nuance, or implementing traditional machine learning models for specific use cases, I focus on creating AI that businesses can actually trust and deploy at scale.
             </p>
-
-            <p>My core technical competencies include:</p>
           </div>
-
-          <StyledTechList>
-            {skills && skills.map((skill, i) => <span key={i}>{skill}</span>)}
-          </StyledTechList>
         </StyledText>
 
         <StyledPic>

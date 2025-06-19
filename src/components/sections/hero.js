@@ -65,11 +65,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm an AI Engineer with expertise in developing intelligent systems that exhibit agentic and language capabilities. At{' '}
+        I'm an AI Engineer at{' '}
         <a href="https://www.deepset.ai/" target="_blank" rel="noreferrer">
           deepset
         </a>
-        , I create AI solutions that can reason, analyze complex data, and make strategic decisions autonomously, tackling the most challenging problems faced by deepset customers.
+        , where I build intelligent systems that can think, reason, and work together to solve complex problems. I help customers create AI that can handle their toughest challenges with smart, autonomous solutions.
       </p>
     </>
   );
