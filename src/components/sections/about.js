@@ -148,10 +148,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'Agentic systems', 'NLP', 'Python', 'Machine Learning', 'Leadership'
-  ];
-
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -160,19 +156,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I work as an AI Engineer at <a href="https://www.deepset.ai/">deepset</a>, helping customers build systems that can understand and work with complex data. There's something fascinating about creating AI agents that can collaborate and reason through problems together - whether that's handling financial negotiations or digging through mountains of research data to find what matters.
+              I'm a Senior AI Engineer at <a href="https://www.deepset.ai/">deepset</a>, where I help customers build production-ready AI systems using Haystack, our open-source framework. I specialize in creating agentic workflows and RAG pipelines that can handle complex, real-world challenges - from processing financial documents to building intelligent search systems.
             </p>
 
             <p>
-              I really enjoy the puzzle of taking something technically complex and making it useful in the real world. During my time at <a href="https://www.bmo.com/en-us/main/personal/">BMO</a>, I worked with a great team to build NLP tools that helped with compliance investigations. Seeing how the right approach could cut through the noise and let people focus on the important stuff was pretty satisfying.
+              What drives me is taking cutting-edge AI research and making it work reliably in production. Whether it's designing multi-agent systems that can reason and collaborate, building retrieval systems that understand context and nuance, or implementing traditional machine learning models for specific use cases, I focus on creating AI that businesses can actually trust and deploy at scale.
             </p>
-
-            <p>These days, I spend most of my time working with:</p>
           </div>
-
-          <StyledTechList>
-            {skills && skills.map((skill, i) => <span key={i}>{skill}</span>)}
-          </StyledTechList>
         </StyledText>
 
         <StyledPic>
