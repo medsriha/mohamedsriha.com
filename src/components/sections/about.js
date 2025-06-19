@@ -156,7 +156,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a Senior AI Engineer at <a href="https://www.deepset.ai/">deepset</a>, where I help customers build production-ready AI systems using Haystack, our open-source framework. I specialize in creating agentic workflows and RAG pipelines that can handle complex, real-world challenges - from processing financial documents to building intelligent search systems.
+              I'm a Senior AI Engineer at <a href="https://www.deepset.ai/">deepset</a>, where I help deepset customers build production-ready AI systems using Haystack, our open-source framework. I specialize in creating agentic workflows and RAG pipelines that can handle complex, real-world challenges - from processing financial documents to building intelligent search systems.
             </p>
 
             <p>
