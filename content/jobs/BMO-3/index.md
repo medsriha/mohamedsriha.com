@@ -5,5 +5,5 @@ company: 'BMO (AML)'
 location: 'Chicago, IL'
 range: 'April 2021 - March 2024'
 url: 'https://www.bmo.com/en-us/main/personal/'
-technologies: ['NLP', 'AWS', 'Docker', 'API', 'Model Explainability', 'MLOps']
+technologies: ['NLP', 'Python', 'Isolation Forest', 'CART Algorithm', 'Model Explainability', 'MLOps', 'AWS', 'Docker']
 ---
