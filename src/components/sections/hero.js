@@ -59,22 +59,10 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1>Hi, I'm</h1>;
   const two = <h2 className="big-heading">Mohamed (Mo) Sriha.</h2>;
-  const three = <h3 className="big-heading">I build things with AI.</h3>;
-  const four = (
-    <>
-      <p>
-        I'm an AI Engineer at{' '}
-        <a href="https://www.deepset.ai/" target="_blank" rel="noreferrer">
-          deepset
-        </a>
-        , where I build intelligent systems that can think, reason, and work together to solve complex problems. I help customers create AI that can handle their toughest challenges with smart, autonomous solutions.
-      </p>
-    </>
-  );
 
-  const items = [one, two, three, four];
+  const items = [one, two];
 
   return (
     <StyledHeroSection>
