@@ -47,12 +47,6 @@ const StyledResumeLink = styled.div`
       transform: translateY(-3px);
       box-shadow: 0 10px 30px -15px var(--green-tint);
     }
-
-    &:before {
-      content: '📄';
-      font-size: var(--fz-md);
-    }
-  }
 `;
 
 const StyledTabList = styled.div`
@@ -355,14 +349,6 @@ const Jobs = () => {
                     </h3>
 
                     <p className="range">{range}</p>
-
-                    {frontmatter.technologies && (
-                      <StyledTechList>
-                        {frontmatter.technologies.map((tech, i) => (
-                          <span key={i}>{tech}</span>
-                        ))}
-                      </StyledTechList>
-                    )}
                   </StyledTabPanel>
                 </CSSTransition>
               );
