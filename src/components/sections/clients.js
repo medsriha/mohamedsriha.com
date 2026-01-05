@@ -76,7 +76,6 @@ const Clients = () => {
     { name: 'YPulse', url: 'https://www.ypulse.com/' },
     { name: 'Pepsi', url: 'https://www.pepsi.com/' },
     { name: 'FoodChain ID', url: 'https://www.foodchainid.com/' },
-    { name: 'OpenSesame', url: 'https://www.opensesame.com/' },
     { name: 'The Economist', url: 'https://www.economist.com/' },
     { name: 'NCQA', url: 'https://www.ncqa.org/' },
   ];
