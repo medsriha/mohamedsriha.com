@@ -96,8 +96,8 @@ const Contact = () => {
   const form = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    from_name: '',
+    user_email: '',
     subject: '',
     message: ''
   });
@@ -135,10 +135,11 @@ const Contact = () => {
         message: 'Thank you! I will get back to you as soon as possible.',
         isError: false
       });
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      setFormData({ from_name: '', user_email: '', subject: '', message: '' });
     } catch (error) {
+      console.error('EmailJS Error:', error);
       setStatus({
-        message: 'Oops! Something went wrong. Please try again later.',
+        message: `Oops! Something went wrong. ${error.text || 'Please try again later.'}`,
         isError: true
       });
     } finally {
@@ -153,23 +154,23 @@ const Contact = () => {
       
       <StyledForm ref={form} onSubmit={handleSubmit} isError={status.isError}>
         <div className="form-group">
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="from_name">Name:</label>
           <input
             type="text"
-            id="name"
-            name="name"
-            value={formData.name}
+            id="from_name"
+            name="from_name"
+            value={formData.from_name}
             onChange={handleChange}
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="user_email">Email:</label>
           <input
             type="email"
-            id="email"
-            name="email"
-            value={formData.email}
+            id="user_email"
+            name="user_email"
+            value={formData.user_email}
             onChange={handleChange}
             required
           />
