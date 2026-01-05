@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Mo Sriha | Freelance AI Engineer',
     description:
-      'Freelance AI Engineer specializing in RAG & LLM systems, NLP solutions, ML engineering, and agentic workflows. Trusted by YPulse, Pepsi, FoodChain ID, OpenSesame, The Economist, and NCQA. Available for AI consulting and production-grade AI system development.',
+      'Freelance AI Engineer specializing in RAG & LLM systems, NLP solutions, ML engineering, and agentic workflows. Trusted by YPulse, Pepsi, FoodChain ID, OpenSesame, The Economist, and NCQA. Let\'s build production-grade AI systems that drive real business value.',
     siteUrl: 'https://medsriha.com', // No trailing slash allowed!
-    //image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.jpg', // Path to your image you placed in the 'static' folder
     // twitterUsername: '@medsriha',
   },
   plugins: [
@@ -15,8 +15,21 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: '/',
+        excludes: ['/404', '/404.html'],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://medsriha.com',
+        sitemap: 'https://medsriha.com/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -133,12 +146,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],
