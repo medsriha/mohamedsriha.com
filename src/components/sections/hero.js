@@ -60,9 +60,21 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, I'm</h1>;
-  const two = <h2 className="big-heading">Mohamed (Mo) Sriha!</h2>;
+  const two = <h2 className="big-heading">Mo Sriha.</h2>;
+  const three = (
+    <h3 className="medium-heading">
+      AI Engineer | Building Production-Grade AI Systems for Leading Brands
+    </h3>
+  );
+  const four = (
+    <p>
+      I'm a freelance AI engineer specializing in RAG & LLM systems, NLP solutions, and ML
+      engineering. I help organizations transform AI research into reliable, scalable systems that
+      deliver real business value.
+    </p>
+  );
 
-  const items = [one, two];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

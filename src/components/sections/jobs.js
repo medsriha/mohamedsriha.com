@@ -291,8 +291,8 @@ const Jobs = () => {
   };
 
   return (
-    <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I Worked</h2>
+    <StyledJobsSection id="experience" ref={revealContainer}>
+      <h2 className="numbered-heading">Experience</h2>
 
       <StyledResumeLink>
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">

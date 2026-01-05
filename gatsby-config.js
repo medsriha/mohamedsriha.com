@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Mohamed Sriha',
+    title: 'Mo Sriha | Freelance AI Engineer',
     description:
-      'Mohamed Sriha is an AI Engineer specializing in Natural Language Processing and Large Language Models, focused on building intelligent systems.',
+      'Freelance AI Engineer specializing in RAG & LLM systems, NLP solutions, ML engineering, and agentic workflows. Trusted by YPulse, Pepsi, FoodChain ID, OpenSesame, The Economist, and NCQA. Available for AI consulting and production-grade AI system development.',
     siteUrl: 'https://medsriha.com', // No trailing slash allowed!
     //image: '/og.png', // Path to your image you placed in the 'static' folder
     // twitterUsername: '@medsriha',
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Mohamed Sriha',
-        short_name: 'Mohamed Sriha',
+        name: 'Mo Sriha | Freelance AI Engineer',
+        short_name: 'Mo Sriha',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

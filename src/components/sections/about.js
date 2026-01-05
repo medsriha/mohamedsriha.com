@@ -156,11 +156,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a Senior AI Engineer at <a href="https://www.deepset.ai/">deepset</a>, where I work closely with our customers to design and deploy production-grade AI systems. My focus is on building robust RAG pipelines and agentic workflows that solve complex real world problems, whether that's extracting insights from regulatory documents or powering advanced semantic search solutions.
+              I'm a freelance AI engineer who helps organizations design and deploy production-grade AI systems. With experience working with leading brands like <a href="https://www.ypulse.com/">YPulse</a>, <a href="https://www.pepsi.com/">Pepsi</a>, <a href="https://www.foodchainid.com/">FoodChain ID</a>, <a href="https://www.opensesame.com/">OpenSesame</a>, <a href="https://www.economist.com/">The Economist</a>, and <a href="https://www.ncqa.org/">NCQA</a>, I specialize in transforming AI research into scalable, reliable solutions.
             </p>
 
             <p>
-              What drives me is turning cutting edge AI research into reliable, scalable systems that deliver real business value. From architecting multiagent systems that can reason and collaborate, to designing retrieval solutions that capture context and nuance, to applying classical machine learning where it fits best, I specialize in building AI that organizations can trust and take to production with confidence.
+              My expertise spans RAG & LLM systems, NLP solutions, ML engineering & MLOps, agentic workflows, cloud infrastructure, and frontend integration. Whether it's architecting multi-agent systems that reason and collaborate, designing retrieval solutions that capture nuance, or building end-to-end ML pipelines, I focus on delivering AI systems that organizations can trust and deploy with confidence.
+            </p>
+
+            <p>
+              What drives me is solving complex real-world problems through practical AI applications—from extracting insights from regulatory documents to powering advanced semantic search, from automating workflows to building intelligent interfaces. I bring both deep technical expertise and a collaborative approach to every project.
             </p>
           </div>
         </StyledText>
