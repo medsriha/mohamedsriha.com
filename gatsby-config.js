@@ -5,7 +5,7 @@ module.exports = {
     title: 'Mo Sriha | Freelance AI Engineer',
     description:
       'Freelance AI Engineer specializing in RAG & LLM systems, NLP solutions, ML engineering, and agentic workflows. Trusted by YPulse, Pepsi, FoodChain ID, OpenSesame, The Economist, and NCQA. Let\'s build production-grade AI systems that drive real business value.',
-    siteUrl: 'https://medsriha.com', // No trailing slash allowed!
+    siteUrl: 'https://www.mohamedsriha.com', // No trailing slash allowed!
     image: '/og.jpg', // Path to your image you placed in the 'static' folder
     // twitterUsername: '@medsriha',
   },
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://medsriha.com',
-        sitemap: 'https://medsriha.com/sitemap-index.xml',
+        host: 'https://www.mohamedsriha.com',
+        sitemap: 'https://www.mohamedsriha.com/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
