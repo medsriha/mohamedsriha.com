@@ -178,6 +178,11 @@ const StyledTabPanel = styled.div`
 
     .company {
       color: var(--green);
+
+      .team {
+        font-size: 0.75em;
+        opacity: 0.8;
+      }
     }
   }
 
@@ -329,6 +334,19 @@ const Jobs = () => {
               const { frontmatter, html } = node;
               const { title, url, company, range } = frontmatter;
 
+              // Parse company name to make team/division smaller
+              const renderCompanyName = (companyName) => {
+                const match = companyName.match(/^(.+?)\s*(\(.+\))$/);
+                if (match) {
+                  return (
+                    <>
+                      {match[1]} <span className="team">{match[2]}</span>
+                    </>
+                  );
+                }
+                return companyName;
+              };
+
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
                   <StyledTabPanel
@@ -343,7 +361,7 @@ const Jobs = () => {
                       <span className="company">
                         &nbsp;@&nbsp;
                         <a href={url} className="inline-link">
-                          {company}
+                          {renderCompanyName(company)}
                         </a>
                       </span>
                     </h3>

@@ -1,7 +1,7 @@
 ---
 date: '2019-05-21'
 title: 'Machine Learning Engineer'
-company: 'BMO (AML)'
+company: 'BMO (Anti-Money Laundering)'
 location: 'Chicago, IL'
 range: 'May 2019 - March 2021'
 url: 'https://www.bmo.com/en-us/main/personal/'
