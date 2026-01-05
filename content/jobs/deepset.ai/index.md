@@ -1,6 +1,6 @@
 ---
 date: '2024-06-21'
-title: 'Senior AI Engineer'
+title: 'Founding AI Engineer'
 company: 'deepset.ai'
 location: 'Chicago, IL'
 range: 'March 2024 - Present'

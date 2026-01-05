@@ -294,11 +294,11 @@ const Jobs = () => {
     <StyledJobsSection id="experience" ref={revealContainer}>
       <h2 className="numbered-heading">Experience</h2>
 
-      <StyledResumeLink>
+      {/* <StyledResumeLink>
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           View Full Resume
         </a>
-      </StyledResumeLink>
+      </StyledResumeLink> */}
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>

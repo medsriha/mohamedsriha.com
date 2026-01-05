@@ -156,7 +156,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a freelance AI engineer who helps organizations design and deploy production-grade AI systems. With experience working with leading brands like <a href="https://www.ypulse.com/">YPulse</a>, <a href="https://www.pepsi.com/">Pepsi</a>, <a href="https://www.foodchainid.com/">FoodChain ID</a>, <a href="https://www.opensesame.com/">OpenSesame</a>, <a href="https://www.economist.com/">The Economist</a>, and <a href="https://www.ncqa.org/">NCQA</a>, I specialize in transforming AI research into scalable, reliable solutions.
+              I'm an AI engineer who helps organizations design and deploy production-grade AI systems. With experience working with leading brands like <a href="https://www.ypulse.com/">YPulse</a>, <a href="https://www.pepsi.com/">Pepsi</a>, <a href="https://www.foodchainid.com/">FoodChain ID</a>, <a href="https://www.opensesame.com/">OpenSesame</a>, <a href="https://www.economist.com/">The Economist</a>, and <a href="https://www.ncqa.org/">NCQA</a>, I specialize in transforming AI research into scalable, reliable solutions.
             </p>
 
             <p>
