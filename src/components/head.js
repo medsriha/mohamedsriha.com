@@ -88,7 +88,7 @@ const Head = ({ title, description }) => {
           '@type': 'Person',
           name: 'Mohamed Sriha',
           alternateName: 'Mo Sriha',
-          jobTitle: 'Freelance AI Engineer',
+          jobTitle: 'AI Engineer',
           description: 'AI Engineer specializing in RAG & LLM systems, NLP solutions, ML engineering, and agentic workflows',
           url: siteUrl,
           image: seo.image,
@@ -108,7 +108,7 @@ const Head = ({ title, description }) => {
           },
           worksFor: {
             '@type': 'Organization',
-            name: 'Freelance'
+            name: 'Self-Employed'
           }
         })}
       </script>
