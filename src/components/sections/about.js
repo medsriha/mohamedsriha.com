@@ -177,7 +177,7 @@ const About = () => {
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Mohamed Sriha, Freelance AI Engineer specializing in RAG and LLM systems"
+              alt="Mohamed Sriha, AI Engineer specializing in RAG and LLM systems"
             />
           </div>
         </StyledPic>

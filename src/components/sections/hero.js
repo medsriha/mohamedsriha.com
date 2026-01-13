@@ -68,7 +68,7 @@ const Hero = () => {
   );
   const four = (
     <p>
-      I'm a freelance AI engineer specializing in RAG & LLM systems, NLP solutions, and ML
+      I'm an AI engineer specializing in RAG & LLM systems, NLP solutions, and ML
       engineering. I help organizations transform AI research into reliable, scalable systems that
       deliver real business value.
     </p>
