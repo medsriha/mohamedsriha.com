@@ -156,15 +156,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm an AI engineer specializing in RAG & LLM systems, NLP applications, and ML engineering. I've worked with leading brands including YPulse, Pepsi, FoodChain ID, The Economist, NCQA, and Toyota—helping them deploy AI systems that solve real business problems.
+              I'm an AI engineer working across RAG & LLM systems, autonomous agent architectures, NLP applications, and ML engineering. I've worked with leading brands including YPulse, Pepsi, FoodChain ID, The Economist, NCQA, and Toyota—helping them deploy AI systems that solve real business problems.
             </p>
 
             <p>
-              My work spans the full AI development lifecycle: architecting multi-agent systems that reason and collaborate, designing retrieval applications that capture nuance, building end-to-end ML pipelines with robust MLOps practices, and integrating AI capabilities into production applications. From cloud infrastructure to frontend integration, I handle the technical challenges that turn prototypes into dependable systems.
+              Beyond retrieval and language models, I build autonomous agent systems—multi-step reasoning pipelines, tool-using agents, and orchestration frameworks that handle complex tasks end-to-end. From planning agents that break down goals into executable steps to multi-agent workflows where specialized models collaborate, I design systems that operate reliably in production, not just in demos.
             </p>
 
             <p>
-              Whether it's extracting insights from regulatory documents, powering semantic search, automating complex workflows, or building intelligent interfaces, I focus on practical AI applications that deliver measurable impact. I bring both deep technical expertise and a collaborative approach to every project.
+              Before focusing on AI engineering, I spent six years as a machine learning engineer at BMO US—leading ML development on the Anti-Money Laundering team and earlier on the Credit Risk team. Working in high-stakes, regulated environments where model failures have real consequences shaped how I think about reliability, monitoring, and building systems that hold up under real-world conditions.
             </p>
           </div>
         </StyledText>

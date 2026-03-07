@@ -66,15 +66,7 @@ const Hero = () => {
       Building Production-Grade AI Systems for Leading Brands
     </h3>
   );
-  const four = (
-    <p>
-      I'm an AI engineer specializing in RAG & LLM systems, NLP applications, and ML
-      engineering. I help organizations design and deploy reliable, scalable AI systems that
-      deliver real business value.
-    </p>
-  );
-
-  const items = [one, two, three, four];
+  const items = [one, two, three];
 
   return (
     <StyledHeroSection>
