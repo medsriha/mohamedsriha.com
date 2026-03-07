@@ -68,32 +68,32 @@ const Services = () => {
     {
       title: 'RAG & LLM Systems',
       description:
-        'Design and deploy production-grade retrieval-augmented generation pipelines and large language model integrations tailored to your business needs.',
+        'Build retrieval-augmented generation systems that balance accuracy and latency—from vector store selection and chunking strategies to prompt engineering, evaluation frameworks, and fine-tuning for domain-specific needs.',
     },
     {
-      title: 'NLP Solutions',
+      title: 'NLP Applications',
       description:
-        'Build custom natural language processing models, text analysis systems, and language understanding applications for specialized domains.',
+        'Develop custom NLP solutions for specialized domains: information extraction from unstructured documents, semantic search, text classification, entity recognition, and document understanding systems.',
     },
     {
       title: 'ML Engineering & MLOps',
       description:
-        'Develop end-to-end machine learning pipelines with robust deployment, monitoring, and continuous improvement practices.',
+        'Build end-to-end ML pipelines with automated training, evaluation, deployment, and monitoring. Implement CI/CD for models, experiment tracking, model versioning, and performance monitoring in production.',
     },
     {
       title: 'AI Consulting & Strategy',
       description:
-        'Provide technical advisory services, architecture design, and strategic guidance for AI initiatives and transformation projects.',
+        'Technical advisory for AI initiatives: architecture reviews, technology stack selection, feasibility assessments, and implementation roadmaps. Help you navigate from proof-of-concept to production deployment.',
     },
     {
       title: 'Agentic Workflows',
       description:
-        'Architect intelligent multi-agent systems that can reason, collaborate, and automate complex decision-making processes.',
+        'Design multi-agent systems with specialized roles, tool use, and collaborative reasoning. From research agents to workflow automation—systems that break down complex tasks and execute them autonomously.',
     },
     {
       title: 'Cloud & Integration',
       description:
-        'Implement scalable cloud infrastructure and seamless frontend integrations to deliver complete AI-powered solutions.',
+        'Deploy AI systems on cloud infrastructure (AWS, GCP, Azure) with proper scaling, security, and cost optimization. Integrate AI capabilities into existing applications through APIs and frontend interfaces.',
     },
   ];
 

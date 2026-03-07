@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Mo Sriha | AI Engineer',
     description:
-      'AI Engineer specializing in RAG & LLM systems, NLP solutions, ML engineering, and agentic workflows. Trusted by YPulse, Pepsi, FoodChain ID, The Economist, and NCQA. Let\'s build production-grade AI systems that drive real business value.',
+      'AI engineer building production-grade RAG and LLM systems for leading brands. Specializing in NLP applications, ML engineering, and agentic workflows—from concept to deployment.',
     siteUrl: 'https://www.mohamedsriha.com', // No trailing slash allowed!
     image: '/og.jpg', // Path to your image you placed in the 'static' folder
     // twitterUsername: '@medsriha',

@@ -89,7 +89,7 @@ const Head = ({ title, description }) => {
           name: 'Mohamed Sriha',
           alternateName: 'Mo Sriha',
           jobTitle: 'AI Engineer',
-          description: 'AI Engineer specializing in RAG & LLM systems, NLP solutions, ML engineering, and agentic workflows',
+          description: 'AI Engineer specializing in RAG & LLM systems, NLP applications, ML engineering, and agentic workflows',
           url: siteUrl,
           image: seo.image,
           knowsAbout: [
@@ -127,7 +127,7 @@ const Head = ({ title, description }) => {
           serviceType: [
             'RAG System Development',
             'LLM Integration',
-            'NLP Solutions',
+            'NLP Applications',
             'ML Engineering',
             'MLOps',
             'AI Consulting'

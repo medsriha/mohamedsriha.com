@@ -150,9 +150,9 @@ const Contact = () => {
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading">Contact</h2>
-      <h2 className="title">Let's Build Something Together</h2>
+      <h2 className="title">Ready to Deploy Reliable AI?</h2>
       <p>
-        I'm currently available for new projects and consulting opportunities. Whether you need help with RAG systems, NLP solutions, or end-to-end ML engineering, I'd love to hear about your project.
+        Whether you need help with RAG systems, NLP applications, or end-to-end ML engineering, I'd love to hear about your project and discuss how we can work together.
       </p>
 
       <StyledForm ref={form} onSubmit={handleSubmit} isError={status.isError}>

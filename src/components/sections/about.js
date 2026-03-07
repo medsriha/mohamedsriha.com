@@ -156,15 +156,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm an AI engineer who helps organizations design and deploy production-grade AI systems. With experience working with leading brands like <a href="https://www.ypulse.com/">YPulse</a>, <a href="https://www.pepsi.com/">Pepsi</a>, <a href="https://www.foodchainid.com/">FoodChain ID</a>, <a href="https://www.economist.com/">The Economist</a>, and <a href="https://www.ncqa.org/">NCQA</a>, I specialize in transforming AI research into scalable, reliable solutions.
+              I'm an AI engineer specializing in RAG & LLM systems, NLP applications, and ML engineering. I've worked with leading brands including YPulse, Pepsi, FoodChain ID, The Economist, NCQA, and Toyota—helping them deploy AI systems that solve real business problems.
             </p>
 
             <p>
-              My expertise spans RAG & LLM systems, NLP solutions, ML engineering & MLOps, agentic workflows, cloud infrastructure, and frontend integration. Whether it's architecting multi-agent systems that reason and collaborate, designing retrieval solutions that capture nuance, or building end-to-end ML pipelines, I focus on delivering AI systems that organizations can trust and deploy with confidence.
+              My work spans the full AI development lifecycle: architecting multi-agent systems that reason and collaborate, designing retrieval applications that capture nuance, building end-to-end ML pipelines with robust MLOps practices, and integrating AI capabilities into production applications. From cloud infrastructure to frontend integration, I handle the technical challenges that turn prototypes into dependable systems.
             </p>
 
             <p>
-              What drives me is solving complex real-world problems through practical AI applications—from extracting insights from regulatory documents to powering advanced semantic search, from automating workflows to building intelligent interfaces. I bring both deep technical expertise and a collaborative approach to every project.
+              Whether it's extracting insights from regulatory documents, powering semantic search, automating complex workflows, or building intelligent interfaces, I focus on practical AI applications that deliver measurable impact. I bring both deep technical expertise and a collaborative approach to every project.
             </p>
           </div>
         </StyledText>

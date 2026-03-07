@@ -78,6 +78,7 @@ const Clients = () => {
     { name: 'FoodChain ID', url: 'https://www.foodchainid.com/' },
     { name: 'The Economist', url: 'https://www.economist.com/' },
     { name: 'NCQA', url: 'https://www.ncqa.org/' },
+    { name: 'Toyota', url: 'https://www.toyota.com/' },
   ];
 
   return (
