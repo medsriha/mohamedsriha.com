@@ -26,10 +26,6 @@ module.exports = {
       url: '/#experience',
     },
     {
-      name: 'Past Projects',
-      url: '/#past-projects',
-    },
-    {
       name: 'Education',
       url: '/#education',
     },

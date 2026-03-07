@@ -60,7 +60,7 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, I'm</h1>;
-  const two = <h2 className="big-heading">Mo Sriha.</h2>;
+  const two = <h2 className="big-heading">Mohamed (Mo) Sriha.</h2>;
   const three = (
     <h3 className="medium-heading">
       Building Production-Grade AI Systems for Leading Brands
