@@ -160,7 +160,7 @@ const About = () => {
             </p>
 
             <p>
-              Much of my recent work has centered on autonomous agents. I built a multi-agent system for code refactoring, agent that processes over 15 billion data points to surface market research insights in real time. I also contribute to Haystack, deepset's open-source framework for building AI pipelines and agents.
+              Much of my recent work has centered on autonomous agents such as a multi-agent system for code refactoring or agent that processes over 15 billion data points to surface market research insights in real time. I also contribute to Haystack, deepset's open-source framework for building AI pipelines and agents.
             </p>
 
             <p>
