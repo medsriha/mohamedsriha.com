@@ -156,15 +156,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm an AI engineer working across RAG & LLM systems, autonomous agent architectures, NLP applications, and ML engineering. I've worked with leading brands including YPulse, Pepsi, FoodChain ID, The Economist, NCQA, and Toyota—helping them deploy AI systems that solve real business problems.
+              I'm an AI engineer focused on RAG & LLM systems, autonomous agents, and ML engineering. I currently work at deepset.ai, helping enterprise teams design and ship production AI systems. I've also worked with companies like YPulse, Pepsi, FoodChain ID, The Economist, NCQA, and Toyota.
             </p>
 
             <p>
-              Beyond retrieval and language models, I build autonomous agent systems—multi-step reasoning pipelines, tool-using agents, and orchestration frameworks that handle complex tasks end-to-end. From planning agents that break down goals into executable steps to multi-agent workflows where specialized models collaborate, I design systems that operate reliably in production, not just in demos.
+              A lot of my recent work has been building autonomous agents. I built a multi-agent system for a financial company to automate loan payment negotiations, and a RAG chatbot that processes over 15 billion data points to surface market research insights in real time. I build these for production environments, so reliability is always the priority.
             </p>
 
             <p>
-              Before focusing on AI engineering, I spent six years as a machine learning engineer at BMO US—leading ML development on the Anti-Money Laundering team and earlier on the Credit Risk team. Working in high-stakes, regulated environments where model failures have real consequences shaped how I think about reliability, monitoring, and building systems that hold up under real-world conditions.
+              Before AI engineering, I spent six years as an ML engineer at BMO US—first on the Credit Risk team, then leading the Anti-Money Laundering team. I led development of an NLP tool that automated government filing narratives, cutting investigation time by 65% and saving over $1M—work recognized by the Chief Risk Officer. That experience in high-stakes environments still shapes how I think about every project.
             </p>
           </div>
         </StyledText>
