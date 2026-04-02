@@ -1,9 +1,9 @@
 ---
-date: '2019-05-14'
-title: 'Master of Science in Computer Science'
+date: '2018-06-01'
+title: 'Master of Science in Computer Science and Information Technology'
 school: 'Carnegie Mellon University'
 location: 'Pittsburgh, PA'
-range: 'September 2017 - May 2019'
+range: 'September 2017 - June 2018'
 url: 'https://www.cmu.edu'
 ---
 
