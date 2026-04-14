@@ -156,15 +156,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm an AI engineer specializing in RAG & LLM systems, autonomous agents, and ML engineering. I currently work at deepset.ai, where I help enterprise teams design and ship production AI systems — clients include YPulse, Pepsi, FoodChain ID, The Economist, NCQA, Toyota, etc
+              I'm an AI engineer specializing in RAG & LLM systems, autonomous agents, and ML engineering. I currently work at deepset.ai, where I help enterprise teams such as YPulse, Pepsi, FoodChain ID, The Economist, NCQA, Toyota, etc design and ship production AI systems.
             </p>
 
             <p>
-              Much of my recent work has centered on autonomous agents such as a multi-agent system for code refactoring or agent that processes over 15 billion data points to surface market research insights in real time. I also contribute to Haystack, deepset's open-source framework for building AI pipelines and agents.
+              Much of my recent work has centered on autonomous agents — from building an MCP server for code refactoring to designing agents that process large volumes of data to surface insights in real time. A highlight was leading end-to-end development of a multi-agent chatbot for a market research client, which delivered 5× ROI within a year and launched in under a month. I also contribute to Haystack, deepset's open-source framework for building AI pipelines and agents.
             </p>
 
             <p>
-              Before AI engineering, I spent six years as an ML engineer at BMO US — starting on the Credit Risk team, where I built and validated predictive models for credit default, worked with large-scale customer data, and helped modernize legacy risk systems. I then moved to lead the Anti-Money Laundering team, where I developed an NLP tool that automated government filing narratives, cutting investigation time by 65% and delivering $1M+ in annual savings — work recognized by the Chief Risk Officer.
+              Before AI engineering, I spent six years as an ML engineer at BMO US — starting on the Credit Risk team, where I built and validated predictive models for credit default, worked with large-scale customer data, and helped modernize legacy risk systems. I then moved to lead the Anti-Money Laundering team, where I developed an NLP tool that automated government filing narratives, cutting investigation time by 65% and delivering $1M+ in annual savings.
             </p>
           </div>
         </StyledText>

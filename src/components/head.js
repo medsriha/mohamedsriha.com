@@ -118,7 +118,7 @@ const Head = ({ title, description }) => {
         {JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'ProfessionalService',
-          name: 'Mo Sriha - AI Engineering Services',
+          name: 'Mo Sriha - AI Engineer',
           description: seo.description,
           url: siteUrl,
           image: seo.image,
