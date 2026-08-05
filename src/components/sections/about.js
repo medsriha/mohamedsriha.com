@@ -63,7 +63,7 @@ const StyledTechList = styled.div`
     font-size: var(--fz-xs);
     font-family: var(--font-mono);
     transition: var(--transition);
-    
+
     &:hover {
       background-color: var(--lightest-navy);
     }
@@ -158,6 +158,16 @@ const About = () => {
           <div>
             <p>
               Hi! I'm an engineer specializing in LLM systems and ML engineering. I currently work at deepset.ai, where I help enterprise teams like Pepsi, The Economist, and Toyota design and ship production AI systems.
+            </p>
+
+            <p>
+              I'm also the founder of{' '}
+              <a href="https://www.wheelta.com/" className="inline-link">
+                Wheelta
+              </a>
+              . After trading the wheel strategy for some time and beating the S&amp;P 500 year over
+              year, I built Wheelta to bring everything I had learned into one platform accessible
+              to anyone.
             </p>
 
             <p>
