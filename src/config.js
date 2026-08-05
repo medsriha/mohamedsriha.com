@@ -22,6 +22,10 @@ module.exports = {
       url: '/#about',
     },
     {
+      name: 'Wheelta',
+      url: '/#wheelta',
+    },
+    {
       name: 'Experience',
       url: '/#experience',
     },

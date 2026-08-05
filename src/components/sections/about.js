@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
-import { IconExternal } from '@components/icons';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -45,112 +44,6 @@ const StyledText = styled.div`
         font-size: var(--fz-sm);
         line-height: 12px;
       }
-    }
-  }
-`;
-
-const StyledFounderSpotlight = styled.aside`
-  position: relative;
-  margin: 30px 0;
-  padding: 26px;
-  overflow: hidden;
-  border: 1px solid var(--lightest-navy);
-  border-radius: var(--border-radius);
-  background: linear-gradient(135deg, var(--light-navy), rgba(17, 34, 64, 0.55));
-  box-shadow: 0 10px 30px -20px var(--navy-shadow);
-  transition: var(--transition);
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 100%;
-    background-color: var(--green);
-  }
-
-  &:hover {
-    border-color: rgba(100, 255, 218, 0.45);
-    box-shadow: 0 18px 35px -20px var(--navy-shadow);
-    transform: translateY(-3px);
-  }
-
-  .founder-label {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-    color: var(--green);
-    font-family: var(--font-mono);
-    font-size: var(--fz-xs);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-
-    &:before {
-      content: '';
-      width: 7px;
-      height: 7px;
-      margin-right: 9px;
-      border-radius: 50%;
-      background-color: var(--green);
-      box-shadow: 0 0 0 4px var(--green-tint);
-    }
-  }
-
-  h3 {
-    margin: 0 0 14px;
-    color: var(--lightest-slate);
-    font-size: clamp(var(--fz-xl), 3vw, var(--fz-heading));
-    line-height: 1.15;
-  }
-
-  p {
-    margin: 0 0 20px;
-    color: var(--light-slate);
-    font-size: var(--fz-md);
-  }
-
-  .founder-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-
-  .founder-role {
-    color: var(--slate);
-    font-family: var(--font-mono);
-    font-size: var(--fz-xxs);
-  }
-
-  .founder-link {
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
-    color: var(--green);
-    font-family: var(--font-mono);
-    font-size: var(--fz-xs);
-    font-weight: 600;
-
-    svg {
-      width: 15px;
-      height: 15px;
-      margin-left: 7px;
-      transition: var(--transition);
-    }
-
-    &:hover svg,
-    &:focus svg {
-      transform: translate(2px, -2px);
-    }
-  }
-
-  @media (max-width: 480px) {
-    padding: 22px 20px 22px 24px;
-
-    .founder-footer {
-      align-items: flex-start;
-      flex-direction: column;
     }
   }
 `;
@@ -248,7 +141,7 @@ const About = () => {
             </p>
 
             <p>
-              Much of my recent work has centered on autonomous agents; from building an MCP server
+              Much of my recent work has centered on autonomous agents—from building an MCP server
               for code refactoring to designing agents that process large volumes of data to surface
               insights in real time. A highlight was leading end-to-end development of a multi-agent
               chatbot for a market research and customer insights platform used by teams at Meta,
@@ -258,33 +151,22 @@ const About = () => {
               agents.
             </p>
 
-            <StyledFounderSpotlight>
-              <div className="founder-label">Founder spotlight</div>
-              <h3>Building Wheelta from strategy to product.</h3>
-              <p>
-                That same drive to turn complex systems into practical products led me to found
-                Wheelta. After years of trading the wheel strategy and consistently outperforming
-                the S&amp;P 500, I transformed my process into a focused options analytics platform—
-                bringing opportunity discovery, risk analysis, and portfolio discipline into one
-                clear workflow for investors.
-              </p>
-              <div className="founder-footer">
-                <span className="founder-role">Founder · Product builder · Options trader</span>
-                <a href="https://www.wheelta.com/" className="founder-link">
-                  Explore Wheelta <IconExternal />
-                </a>
-              </div>
-            </StyledFounderSpotlight>
+            <p>
+              Earlier in my career, I spent six years as an ML engineer at BMO US. On the Credit
+              Risk team, I built and validated predictive models for credit default, worked with
+              large-scale customer data, and helped modernize legacy risk systems. I later led the
+              Anti-Money Laundering team, developing NLP tools that cut investigation time by 65%
+              and delivered more than $1M in annual savings.
+            </p>
 
             <p>
-              The foundation for Wheelta was shaped by my six years as an ML engineer at BMO US,
-              where I learned to turn financial data, risk models, and complex workflows into tools
-              people could trust. On the Credit Risk team, I built and validated predictive models
-              for credit default, worked with large-scale customer data, and helped modernize legacy
-              risk systems. I later led the Anti-Money Laundering team, developing NLP tools that
-              cut investigation time by 65% and delivered more than $1M in annual savings. That
-              combination of financial expertise, rigorous risk analysis, and practical product
-              building continues to shape how I lead Wheelta today.
+              Across financial services and AI, I have been most energized by turning complex data
+              and workflows into products people can trust and use. That same instinct led me to
+              found{' '}
+              <a href="#wheelta" className="inline-link">
+                Wheelta
+              </a>
+              , the options analytics platform featured next.
             </p>
           </div>
         </StyledText>

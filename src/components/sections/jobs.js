@@ -169,28 +169,6 @@ const StyledTabPanel = styled.div`
   }
 `;
 
-const StyledTechList = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  gap: 10px;
-
-  span {
-    display: inline-block;
-    background-color: rgba(100, 255, 218, 0.1);
-    color: var(--green);
-    border-radius: 14px;
-    padding: 6px 12px;
-    font-size: var(--fz-xs);
-    font-family: var(--font-mono);
-    transition: var(--transition);
-    
-    &:hover {
-      background-color: var(--lightest-navy);
-    }
-  }
-`;
-
 const Jobs = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -213,7 +191,7 @@ const Jobs = () => {
     }
   `);
 
-  const jobsData = data.jobs.edges;
+  const jobsData = data.jobs.edges.filter(({ node }) => node.frontmatter.company !== 'Wheelta');
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
@@ -302,7 +280,7 @@ const Jobs = () => {
               const { title, url, company, range } = frontmatter;
 
               // Parse company name to make team/division smaller
-              const renderCompanyName = (companyName) => {
+              const renderCompanyName = companyName => {
                 const match = companyName.match(/^(.+?)\s*(\(.+\))$/);
                 if (match) {
                   return (
