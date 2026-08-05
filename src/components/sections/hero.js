@@ -62,11 +62,18 @@ const Hero = () => {
   const one = <h1>Hi, I'm</h1>;
   const two = <h2 className="big-heading">Mohamed (Mo) Sriha.</h2>;
   const three = (
-    <h3 className="medium-heading">
-      Building Production-Grade AI Systems for Leading Brands
-    </h3>
+    <h3 className="medium-heading">Building Production-Grade AI Systems for Leading Brands</h3>
   );
-  const items = [one, two, three];
+  const four = (
+    <p>
+      Alongside my AI work, I founded and launched{' '}
+      <a href="https://www.wheelta.com/" className="inline-link">
+        Wheelta
+      </a>
+      , a put options scanner for investors using the wheel strategy.
+    </p>
+  );
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
