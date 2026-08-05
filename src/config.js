@@ -10,6 +10,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/medsriha',
     },
+    {
+      name: 'Wheelta',
+      url: 'https://www.wheelta.com/',
+    },
   ],
 
   navLinks: [

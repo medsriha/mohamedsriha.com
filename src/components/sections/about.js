@@ -159,7 +159,13 @@ const About = () => {
             <p>
               Hi! I'm an engineer specializing in LLM systems and ML engineering. I currently work at deepset.ai, where I help enterprise teams like Pepsi, The Economist, and Toyota design and ship production AI systems.
             </p>
+            <p>
+              Much of my recent work has centered on autonomous agents — from building an MCP server for code refactoring to designing agents that process large volumes of data to surface insights in real time. A highlight was leading end-to-end development of a multi-agent chatbot, which delivered 5× ROI within a year and launched in under a month. I also contribute to Haystack, deepset's open-source framework for building AI pipelines and agents.
+            </p>
 
+            <p>
+              Before AI engineering, I spent six years as an ML engineer at BMO US — starting on the Credit Risk team, where I built and validated predictive models for credit default, worked with large-scale customer data, and helped modernize legacy risk systems. I later moved to lead the Anti-Money Laundering team, driving development of an NLP tool that automated government filing narratives, cutting investigation time by 65% and delivering $1M+ in annual savings.
+            </p>
             <p>
               I'm also the founder of{' '}
               <a href="https://www.wheelta.com/" className="inline-link">
@@ -168,14 +174,6 @@ const About = () => {
               . After trading the wheel strategy for some time and beating the S&amp;P 500 year over
               year, I built Wheelta to bring everything I had learned into one platform accessible
               to anyone.
-            </p>
-
-            <p>
-              Much of my recent work has centered on autonomous agents — from building an MCP server for code refactoring to designing agents that process large volumes of data to surface insights in real time. A highlight was leading end-to-end development of a multi-agent chatbot, which delivered 5× ROI within a year and launched in under a month. I also contribute to Haystack, deepset's open-source framework for building AI pipelines and agents.
-            </p>
-
-            <p>
-              Before AI engineering, I spent six years as an ML engineer at BMO US — starting on the Credit Risk team, where I built and validated predictive models for credit default, worked with large-scale customer data, and helped modernize legacy risk systems. I later moved to lead the Anti-Money Laundering team, driving development of an NLP tool that automated government filing narratives, cutting investigation time by 65% and delivering $1M+ in annual savings.
             </p>
           </div>
         </StyledText>
