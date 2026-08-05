@@ -160,13 +160,12 @@ const About = () => {
             </p>
 
             <p>
-              Across financial services and AI, I have been most energized by turning complex data
-              and workflows into products people can trust and use. That same instinct led me to
-              found{' '}
+              Across financial services and AI, I enjoy turning complex data and workflows into
+              tools people can actually use. That same interest led me to build{' '}
               <a href="#wheelta" className="inline-link">
                 Wheelta
               </a>
-              , the options analytics platform featured next.
+              , which I talk about in the next section.
             </p>
           </div>
         </StyledText>
