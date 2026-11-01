@@ -135,20 +135,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! I'm an engineer specializing in LLM systems and ML engineering. I currently work
-              at deepset.ai, where I help enterprise teams like Pepsi, The Economist, and Toyota
-              design and ship production AI systems.
+              Hi! I'm a Staff AI Engineer on ShipBob's Automation team, building agentic
+              applications that improve how logistics operations run. I focus on understanding real
+              workflows, identifying where manual effort creates friction, and turning those
+              opportunities into practical automation that improves speed, accuracy, and
+              scalability. The goal is to reduce repetitive work, strengthen alignment between
+              business teams and technology, and build intelligent systems for a more efficient,
+              resilient logistics network.
             </p>
 
             <p>
-              Much of my recent work has centered on autonomous agents—from building an MCP server
-              for code refactoring to designing agents that process large volumes of data to surface
-              insights in real time. A highlight was leading end-to-end development of a multi-agent
-              chatbot for a market research and customer insights platform used by teams at Meta,
-              Google, Xbox, and other global brands to better understand customer behavior. The
-              chatbot launched in under a month and delivered 5× ROI within a year. I also
-              contribute to Haystack, deepset's open-source framework for building AI pipelines and
-              agents.
+              Previously, at deepset.ai, I helped enterprise teams like Pepsi, The Economist, and
+              Toyota design and ship production AI systems. Much of my work centered on autonomous
+              agents—from building an MCP server for code refactoring to designing agents that
+              process large volumes of data to surface insights in real time. A highlight was
+              leading end-to-end development of a multi-agent chatbot for a market research and
+              customer insights platform used by teams at Meta, Google, Xbox, and other global
+              brands to better understand customer behavior. The chatbot launched in under a month
+              and delivered 5× ROI within a year. I also contributed to Haystack, deepset's
+              open-source framework for building AI pipelines and agents.
             </p>
 
             <p>
